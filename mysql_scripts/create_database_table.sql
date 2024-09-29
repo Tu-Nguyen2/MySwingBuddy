@@ -1,5 +1,5 @@
-CREATE DATABASE 'My_Swing_Buddy';
-USE 'My_Swing_Buddy';
+CREATE DATABASE My_Swing_Buddy;
+USE My_Swing_Buddy;
 
 CREATE TABLE video_data_points(
 	video_id INT NOT NULL,
