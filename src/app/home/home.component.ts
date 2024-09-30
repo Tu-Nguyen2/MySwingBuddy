@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ApplicationConfig, Component } from '@angular/core';
 import { UserHomeComponent } from '../user-home/user-home.component';
 import { MySwingBuddyComponent } from '../my-swing-buddy/my-swing-buddy.component';
 import { RouterLink, RouterLinkActive, RouterOutlet, Routes } from '@angular/router';
@@ -14,6 +14,7 @@ import { CommonModule } from '@angular/common';
 export class HomeComponent {
   title = 'Home'
 }
+
 
 const routes: Routes = [
   {path: 'UserHome', component: UserHomeComponent},
