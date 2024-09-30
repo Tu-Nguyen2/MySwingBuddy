@@ -3,11 +3,12 @@ import { UserHomeComponent } from './user-home/user-home.component';
 import { MySwingBuddyComponent } from './my-swing-buddy/my-swing-buddy.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { RouterLink, RouterLinkActive, RouterOutlet, Routes } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterOutlet, RouterLink, RouterLinkActive],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, CommonModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
