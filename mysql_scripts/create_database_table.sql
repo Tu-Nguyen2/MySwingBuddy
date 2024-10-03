@@ -20,3 +20,14 @@ CREATE TABLE user_video(
     video_id INT NOT NULL,
     PRIMARY KEY (user_id)
 );
+ -- This is the table that will store, and access the S3 bucket
+CREATE TABLE videos_training_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    description TEXT,
+    s3_url VARCHAR(255) NOT NULL,
+    upload_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    duration INT,
+    user_id INT
+    -- FOREIGN KEY (user_id) REFERENCES users(id)
+);
