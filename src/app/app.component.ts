@@ -18,6 +18,7 @@ export class AppComponent {
 }
 
 const routes: Routes = [
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'UserHome', component: UserHomeComponent},
   {path: 'MySwingBuddy', component: MySwingBuddyComponent},
   {path: '**', component: PageNotFoundComponent},
