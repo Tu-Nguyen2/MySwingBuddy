@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HomeComponent } from './home/home.component';
 import { UserHomeComponent } from './user-home/user-home.component';
 import { MySwingBuddyComponent } from './my-swing-buddy/my-swing-buddy.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -19,6 +20,7 @@ export class AppComponent {
 const routes: Routes = [
   {path: 'UserHome', component: UserHomeComponent},
   {path: 'MySwingBuddy', component: MySwingBuddyComponent},
-  {path: '**', component: PageNotFoundComponent}
+  {path: '**', component: PageNotFoundComponent},
+  {path: 'Home', component: HomeComponent}
 ]
 
