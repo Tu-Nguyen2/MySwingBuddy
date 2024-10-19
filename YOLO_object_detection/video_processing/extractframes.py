@@ -36,8 +36,3 @@ def extract_frames(video_path, output_folder, frames_per_second=8):
     cap.release()
     print(f"Total frames extracted: {extracted_frame_count}")
 
-
-# 
-if __name__ == '__main__':
-    #this is an example usecase
-    extract_frames('IMG_0235.mp4', 'output_frames', frames_per_second=8)
