@@ -2,7 +2,7 @@ import cv2
 import os
 
 
-def extract_frames(video_path, output_folder, frames_per_second=1):
+def extract_frames(video_path, output_folder, frames_per_second=8):
     # Open the video file
     cap = cv2.VideoCapture(video_path)
 
@@ -37,6 +37,7 @@ def extract_frames(video_path, output_folder, frames_per_second=1):
     print(f"Total frames extracted: {extracted_frame_count}")
 
 
-# Example usage: Extract 2 frames per second from the video
+# 
 if __name__ == '__main__':
-    extract_frames('IMG_0235.mp4', 'output_frames', frames_per_second=2)
+    #this is an example usecase
+    extract_frames('IMG_0235.mp4', 'output_frames', frames_per_second=8)
