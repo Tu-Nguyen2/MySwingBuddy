@@ -16,5 +16,23 @@
         "myswingbuddy32e01f08": {}
       }
     }
+  },
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myswingbuddy-test-c626e-authRole",
+      "UnauthRoleArn": "arn:aws:iam::970547346360:role/amplify-myswingbuddy-test-c626e-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::970547346360:role/amplify-myswingbuddy-test-c626e-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-myswingbuddy-test-c626e-deployment",
+      "UnauthRoleName": "amplify-myswingbuddy-test-c626e-unauthRole",
+      "StackName": "amplify-myswingbuddy-test-c626e",
+      "StackId": "arn:aws:cloudformation:us-east-2:970547346360:stack/amplify-myswingbuddy-test-c626e/13e33970-8e49-11ef-a0b9-06750b915615",
+      "AmplifyAppId": "d1pvvitm6psdu3"
+    },
+    "categories": {
+      "auth": {
+        "myswingbuddy32e01f08": {}
+      }
+    }
   }
 }
