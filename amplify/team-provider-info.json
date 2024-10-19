@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myswingbuddy-dev-08400-authRole",
+      "UnauthRoleArn": "arn:aws:iam::970547346360:role/amplify-myswingbuddy-dev-08400-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::970547346360:role/amplify-myswingbuddy-dev-08400-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-myswingbuddy-dev-08400-deployment",
+      "UnauthRoleName": "amplify-myswingbuddy-dev-08400-unauthRole",
+      "StackName": "amplify-myswingbuddy-dev-08400",
+      "StackId": "arn:aws:cloudformation:us-east-1:970547346360:stack/amplify-myswingbuddy-dev-08400/6584f250-8dea-11ef-ab58-1215f66af8d3",
+      "AmplifyAppId": "d1l6042nsysled"
+    },
+    "categories": {
+      "auth": {
+        "myswingbuddy32e01f08": {}
+      }
+    }
+  }
+}
