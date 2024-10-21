@@ -20,4 +20,5 @@ describe('MySwingBuddyComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  
 });

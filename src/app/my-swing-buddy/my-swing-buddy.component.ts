@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './my-swing-buddy.component.html',
-  styleUrl: './my-swing-buddy.component.css'
+  styleUrls: ['./my-swing-buddy.component.css']
 })
 export class MySwingBuddyComponent {
 
