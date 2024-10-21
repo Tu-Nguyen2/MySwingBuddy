@@ -14,6 +14,15 @@
     "categories": {
       "auth": {
         "myswingbuddy32e01f08": {}
+      },
+      "function": {
+        "S3Trigger67d34bd8": {
+          "deploymentBucketName": "amplify-myswingbuddy-dev-08400-deployment",
+          "s3Key": "amplify-builds/S3Trigger67d34bd8-6e54564b68756563416e-build.zip"
+        }
+      },
+      "storage": {
+        "uservideo": {}
       }
     }
   },
