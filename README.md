@@ -17,7 +17,7 @@ Once the repo is cloned, `cd` into where `MySwingBuddy` is cloned. The next step
 
 `npm install -g @aws-amplify/cli` will now install the Amplify CLI, this allows us to push the project and connect an AWS account to manage user login
 
-With these two tools installed, you are now ready to connect an AWS account, within the root directory of the project run `amplify init` to stage the project. When a project is ready to be pushed to Amplify, run `Amplify Push` and this will send the project to AWS, where it will manage the user login and create userpools for that AWS account. To see the configuration of the tools added in (i.e. auth, storage, hosting, etc.) all tools that are run with `Amplify add <tool name>` will appear under the `Amplify` folder.
+With these two tools installed, you are now ready to connect an AWS account, within the root directory of the project run `amplify init` to stage the project. When a project is ready to be pushed to Amplify, run `amplify push` and this will send the project to AWS, where it will manage the user login and create userpools for that AWS account. To see the configuration of the tools added in (i.e. auth, storage, hosting, etc.) all tools that are run with `amplify add <tool name>` will appear under the `Amplify` folder.
 
 Within the `src` folder there are the components and pages for the web application, these are organized by what the function of the page is and they route between eachother.
 
