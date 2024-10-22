@@ -1,27 +1,32 @@
 # MySwingBuddy
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+MySwingBuddy is a project that allows the user to login using AWS amplify, to access their account where they will be able to upload videos of themselves swinging a golf club. Over the duration of the video the user will get their 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Required Software
+* Node.js (version 20.17.0 or higher)
+* Angular CLI (version 18.2.6 or higher)
+* AWS Amplify CLI (version 12.13.0)
+* Python 3.9 or higher
+* FFmpeg (installed and added to PATH)
 
-## Code scaffolding
+### Installations and Configuration After Cloning - Web Component
+Once the repo is cloned, `cd` into where `MySwingBuddy` is cloned. The next step is installing dependencies and other tools that will be needed to run all code.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`npm install` will install Node.js dependencies for the project.
 
-## Build
+`npm install -g @aws-amplify/cli` will now install the Amplify CLI, this allows us to push the project and connect an AWS account to manage user login
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+With these two tools installed, you are now ready to connect an AWS account, within the root directory of the project run `amplify init` to stage the project
 
-## Running unit tests
+### Installations and Configuration After Cloning - YOLO
+Currently the packages being used for video playback control and any transformations to the data itself can be found in under `YOLO_object_detection`, these require OpenCV and FFmpeg in order to function these can be installed by running:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`pip install opencv-python`
+`pip install ffmpeg-python`
 
-## Running end-to-end tests
+*Make sure that after installing both of these have their path setup properly and MySwingBuddy can see those pathes.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Usage
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Run `ng serve` for a dev server, since the project is locally hosted this will be the only way to run the project. The project will be accessable at [text](http://localhost:4200)
