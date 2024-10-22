@@ -29,4 +29,4 @@ Currently the packages being used for video playback control and any transformat
 
 ## Usage
 
-Run `ng serve` for a dev server, since the project is locally hosted this will be the only way to run the project. The project will be accessable at [text](http://localhost:4200)
+Run `ng serve` for a dev server, since the project is locally hosted this will be the only way to run the project. The project will be accessable at [http://localhost:4200](http://localhost:4200)
