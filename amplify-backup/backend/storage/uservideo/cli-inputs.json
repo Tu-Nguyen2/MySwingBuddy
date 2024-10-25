@@ -1,0 +1,14 @@
+{
+  "resourceName": "uservideo",
+  "policyUUID": "165d4959",
+  "bucketName": "myswingbuddy",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "S3Trigger67d34bd8",
+  "groupAccess": {}
+}
