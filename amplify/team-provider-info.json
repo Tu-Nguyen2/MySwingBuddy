@@ -41,6 +41,9 @@
     "categories": {
       "auth": {
         "myswingbuddy32e01f08": {}
+      },
+      "function": {
+        "S3Trigger67d34bd8": {}
       }
     }
   }

@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { UserNavBarComponent } from "../user-nav-bar/user-nav-bar.component";
 import { MySwingBuddyComponent } from './my-swing-buddy.component';
 
 describe('MySwingBuddyComponent', () => {
