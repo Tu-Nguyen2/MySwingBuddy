@@ -18,4 +18,15 @@
 </amplify-authenticator> -->
 
 <!-- The routed views render in the <router-outlet>-->
-<router-outlet></router-outlet>
+
+  <amplify-authenticator>
+    <ng-template
+      amplifySlot="authenticated"
+      let-user="user"
+      let-signOut="signOut"
+    >
+      <app-my-swing-buddy></app-my-swing-buddy>
+      <button (click)="signOut()">Sign Out</button>
+    </ng-template>
+  </amplify-authenticator>
+  <router-outlet></router-outlet>
