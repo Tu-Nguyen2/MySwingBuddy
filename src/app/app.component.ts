@@ -6,7 +6,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { RouterLink, RouterLinkActive, RouterOutlet, Routes } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login/login.component';
-
+import { AngularFireModule } from '@angular/fire/compat'
 
 
 
