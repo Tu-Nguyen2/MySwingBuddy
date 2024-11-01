@@ -6,27 +6,4 @@
   </ul>
 </nav>
 
-<!-- <amplify-authenticator>
-  <ng-template
-    amplifySlot="authenticated"
-    let-user="user"
-    let-signOut="signOut"
-  >
-    <h1>Welcome {{ user.username }}!</h1>
-    <button (click)="signOut()">Sign Out</button>
-  </ng-template>
-</amplify-authenticator> -->
-
-<!-- The routed views render in the <router-outlet>-->
-
-  <amplify-authenticator>
-    <ng-template
-      amplifySlot="authenticated"
-      let-user="user"
-      let-signOut="signOut"
-    >
-      <app-my-swing-buddy></app-my-swing-buddy>
-      <button (click)="signOut()">Sign Out</button>
-    </ng-template>
-  </amplify-authenticator>
   <router-outlet></router-outlet>
